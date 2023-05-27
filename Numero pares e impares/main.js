@@ -35,9 +35,19 @@ function evenNumberSum(){
 
 function numbers() {
     number=numberIn();
+
+    console.log(`Numero ingresado: ${number}`)
+
     console.log(`Numeros pares: `+evenNumber(number))
     console.log(`Numeros impares: `+oddNumber(number))
     console.log(`Suma de numeros pares: `+evenNumberSum())
+
+    document.write(`Numero ingresado: ${number}`+`<br>`)
+
+    document.write(`Numeros pares: `+evenNumber(number)+`<br>`)
+    document.write(`Numeros impares: `+oddNumber(number)+`<br>`)
+    document.write(`Suma de numeros pares: `+evenNumberSum())
 }
+
 
 numbers()
